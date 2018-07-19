@@ -36,9 +36,27 @@ header li {
 li {
     display: list-item;
 }
-.hrow{
-    width: 40%;
+.fa-fw {
+    width: 1.28571429em;
+    text-align: center;
 }
-.row{
-    width: 100%;
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.network-name {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+.btn-default:hover{
+    background-color: lightgray;
+}
+.btn-default{
+    color: black;
 }
