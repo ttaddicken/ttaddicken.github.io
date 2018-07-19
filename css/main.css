@@ -54,9 +54,6 @@ li {
     font-weight: 400;
     letter-spacing: 2px;
 }
-.btn-default:hover{
+.btn:hover{
     background-color: lightgray;
-}
-.btn-default{
-    color: black;
 }
