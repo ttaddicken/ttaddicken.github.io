@@ -16,7 +16,6 @@ footer{
     border: 3px solid;
     color: black;
     bottom: 0;
-    position: fixed;
 }
 #navbar{
     border: 5px solid;
@@ -56,4 +55,22 @@ li {
 }
 .btn:hover{
     background-color: lightgray;
+    border: solid 1px #adadad;
+}
+span.b {
+    display: inline-block;
+    width: 48%;
+    height: 100px;
+    padding: 5px;      
+    margin-left: 10px;
+    background-color: yellow; 
+}
+span.c {
+    display: inline-block;
+    width: 48%;
+    height: 100px;
+    padding: 5px;      
+    margin-left: 10px;
+    text-align: top;
+    background-color: yellow; 
 }
